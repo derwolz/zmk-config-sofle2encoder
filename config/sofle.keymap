@@ -102,11 +102,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                            &kp F6  &kp F7  &kp F8  &kp F9                &kp F10                &kp F11
-&trans  &kp SE_A &kp SE_O  &trans  &trans  &trans                            &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F12
-&trans  &kp DE_A &kp DE_O  &trans &kp DE_U  &trans                            &trans  &trans  &trans  &kp MINUS             &kp PLUS               &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans  &trans  &trans                &trans                 &trans
-                &trans  &trans  &trans  &kp LEFT_SHIFT  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                                &kp F6  &kp F7  &kp F8  &kp F9                &kp F10                &kp F11
+&trans  &kp SE_A_RING &kp SE_O_SLASH  &trans  &trans  &trans                             &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F12
+&trans  &kp DE_A_UMLAUT &kp DE_O_UMLAUT  &trans &kp DE_U_UMLAUT  &trans                            &trans  &trans  &trans  &kp MINUS             &kp PLUS               &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                &trans    &trans  &trans  &trans  &trans  &trans                &trans                 &trans
+                &trans  &trans  &trans  &kp LEFT_SHIFT  &trans                &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
