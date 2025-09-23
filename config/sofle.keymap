@@ -3,6 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
+
 #include <keys_se.h>
 #include <keys_de.h>
 #include <behaviors.dtsi>
@@ -46,7 +47,7 @@
 
         delete {
             bindings = <&kp DELETE>;
-            key-positions = <27 33>;
+            key-positions = <27 28>;
         };
 
         esc {
@@ -102,16 +103,16 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                                &kp F6  &kp F7  &kp F8  &kp F9                &kp F10                &kp F11
-&trans  &kp SE_A_RING &kp SE_O_SLASH  &trans  &trans  &trans                             &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F12
-&trans  &kp DE_A_UMLAUT &kp DE_O_UMLAUT  &trans &kp DE_U_UMLAUT  &trans                            &trans  &trans  &trans  &kp MINUS             &kp PLUS               &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                &trans    &trans  &trans  &trans  &trans  &trans                &trans                 &trans
-                &trans  &trans  &trans  &kp LEFT_SHIFT  &trans                &trans  &trans  &trans  &trans  &trans
+&trans  &kp F1           &kp F2           &kp F3  &kp F4           &kp F5                            &kp F6      &kp F7      &kp F8       &kp F9                &kp F10                &kp F11
+&trans  &kp SE_A_RING    &kp SE_O_SLASH   &trans  &trans           &trans                            &kp INS     &kp HOME    &trans       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F12
+&trans  &kp DE_A_UMLAUT  &kp DE_O_UMLAUT  &trans  &kp DE_U_UMLAUT  &trans                            &kp DELETE  &kp END     &trans       &kp MINUS             &kp PLUS               &trans
+&trans  &trans           &trans           &trans  &trans           &trans          &trans    &trans  &kp K_CUT   &kp K_COPY  &kp K_PASTE  &trans                &trans                 &trans
+                         &trans           &trans  &trans           &kp LEFT_SHIFT  &trans    &trans  &trans      &trans      &trans       &trans
             >;
 
             sensor-bindings =
                 <&inc_dec_kp K_UNDO K_REDO>,
-                <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         raise_layer {
