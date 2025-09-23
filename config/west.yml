@@ -10,7 +10,7 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       revision: main
-      import: app/west.ymln
+      import: app/west.yml
     - name: zmk-locals
       remote: zmklocals_base
       revision: main
