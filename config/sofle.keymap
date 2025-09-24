@@ -128,9 +128,9 @@
             bindings = <
 &bt BT_CLR_ALL     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &none  &none  &none  &none  &none  &none
 &ext_power EP_TOG  &none         &none         &none         &none         &studio_unlock                  &none  &none  &none  &none  &none  &none
-&kp SYR_BOX_LI_DOWN_AND_LEFT     &kp SYR_SYRIAC_RUKKAKHA            &kp SYR_SYRIAC_QUSHSHAYA           &kp SYR_SYRIAC_FEMININE_DOT      &kp SYR_SYRIAC_ESASA_BELOW           &kp SYR_SYRIAC_RWAHA                                                    &kp SYR_SYRIAC_SODHU         &kp SYR_SYRIAC_REVERSED_PE   &kp SYR_SYRIAC_PE             &kp SYR_SYRIAC_FINAL_SEMKATH  &kp SYR_SYRIAC_SEMKATH       &kp SYR_SYRIAC_NUN
-&kp SYR_BOX_GIHT_DOWN_AND_RIGHT  &kp SYR_SYRIAC_HBASA_ESASA_DOTTED  &kp SYR_SYRIAC_HBASA_BELOW         &kp SYR_SYRIAC_HBASA_ABOVE       &kp SYR_SYRIAC_DOTTED_ZLAMA_ANGULAR  &kp SYR_SYRIAC_DOTTED_ZLAMA_HORIZONTAL  &kp K_MUTE    &kp K_PLAY_PAUSE  &kp SYR_SYRIAC_MIM           &kp SYR_SYRIAC_LAMADH        &kp SYR_SYRIAC_KAPH           &kp SYR_SYRIAC_YUDH_HE        &kp SYR_SYRIAC_YUDH          &kp SYR_SYRIAC_TETH
-                                                                    &trans                             &trans                           &trans                               &trans                                  &trans        &trans            &trans                       &trans                       &trans                        &trans
+&none              &none         &none         &none         &none         &none                           &none  &none  &none  &none  &none  &none
+&none              &none         &none         &none         &none         &caps_word      &none    &none  &none  &none  &none  &none  &none  &none
+                                 &none         &none         &none         &none           &none    &none  &none  &none  &none  &none
             >;
 
             sensor-bindings =
