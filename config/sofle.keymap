@@ -80,11 +80,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&gresc        &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                                     &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &kp BACKSPACE
-&kp GRAVE     &kp Q   &kp W     &kp E     &kp R      &kp T                                      &kp Y   &kp U   &kp I      &kp O    &kp P     &kp LEFT_BRACKET
-&kp TAB       &kp A   &kp S     &kp D     &kp F      &kp G                                      &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
-&kp CAPSLOCK  &kp Z   &kp X     &kp C     &kp V      &kp B           &kp K_MUTE    &kp K_MUTE2  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_BRACKET
-                      &kp LGUI  &kp LALT  &kp LCTRL  &kp LEFT_SHIFT  &kp SPACE     &kp ENTER    &mo 1   &mo 2   &kp PIPE   &mo 3
+&gresc        &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                                       &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &kp BACKSPACE
+&kp GRAVE     &kp Q   &kp W     &kp E     &kp R      &kp T                                        &kp Y   &kp U   &kp I      &kp O    &kp P     &kp LEFT_BRACKET
+&kp TAB       &kp A   &kp S     &kp D     &kp F      &kp G                                        &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
+&kp CAPSLOCK  &kp Z   &kp X     &kp C     &kp V      &kp B           &kp K_MUTE    &kp RU_NUMERO  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_BRACKET
+                      &kp LGUI  &kp LALT  &kp LCTRL  &kp LEFT_SHIFT  &kp SPACE     &kp ENTER      &mo 1   &mo 2   &kp PIPE   &mo 3
             >;
 
             sensor-bindings =
@@ -127,11 +127,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&kp SYR_SYRIAC_RWAHA        &kp SYR_SYRIAC_SEMKATH  &kp SYR_SYRIAC_NUN            &kp SYR_SYRIAC_HETH                 &kp SYR_ARABIC_SEMICOLON           &kp SYR_ARABIC_QUESTION_MARK                      &kp SYR_SYRIAC_SUBLINEAR_COLON_SKEWED_RIGHT  &none                 &none               &none                &none                &none
-&kp SYR_SYRIAC_MIM          &kp SYR_SYRIAC_ZAIN     &kp SYR_SYRIAC_KAPH           &kp SYR_EAST_SYRIAC_CROSS           &kp SYR_ZERO_WIDTH_JOINER          &kp SYR_ZERO_WIDTH_NON_JOINER                     &kp SYR_WEST_SYRIAC_CROSS                    &kp SYR_SYRIAC_MUSIC  &kp SYR_SYRIAC_TAW  &kp SYR_SYRIAC_SHIN  &kp SYR_SYRIAC_RISH  &kp SYR_SYRIAC_QAPH
-&kp SYR_SYRIAC_REVERSED_PE  &kp SYR_SYRIAC_PE       &kp SYR_SYRIAC_FINAL_SEMKATH  &kp SYR_ARABIC_HAMZA                &kp SYR_SYRIAC_END_OF_PARAGRAPH    &kp SYR_SYRIAC_HARKLEAN_OBELUS                    &none                                        &none                 &none               &none                &none                &none
-&kp SYR_SYRIAC_YUDH         &kp SYR_SYRIAC_TETH     &kp SYR_SYRIAC_CONTRACTION    &kp SYR_SYRIAC_HARKLEAN_ASTERISCUS  &kp SYR_SYRIAC_HARKLEAN_METOBELUS  &kp SYR_SYRIAC_BETH             &none     &none   &none                                        &none                 &none               &none                &trans               &trans
-                                                    &trans                        &trans                              &trans                             &trans                          &trans    &trans  &trans                                       &trans
+&kp SYR_SYRIAC_RWAHA        &kp SYR_SYRIAC_SEMKATH  &kp SYR_SYRIAC_NUN            &kp SYR_SYRIAC_HETH                 &kp SYR_ARABIC_SEMICOLON           &kp SYR_ARABIC_QUESTION_MARK                                                   &kp SYR_SYRIAC_SUBLINEAR_COLON_SKEWED_RIGHT  &kp RU_CYRILLIC_PE         &kp RU_CYRILLIC_EF  &kp RU_CYRILLIC_TSE  &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_SHCHA
+&kp SYR_SYRIAC_MIM          &kp SYR_SYRIAC_ZAIN     &kp SYR_SYRIAC_KAPH           &kp SYR_EAST_SYRIAC_CROSS           &kp SYR_ZERO_WIDTH_JOINER          &kp SYR_ZERO_WIDTH_NON_JOINER                                                  &kp SYR_WEST_SYRIAC_CROSS                    &kp SYR_SYRIAC_MUSIC       &kp SYR_SYRIAC_TAW  &kp SYR_SYRIAC_SHIN  &kp SYR_SYRIAC_RISH   &kp SYR_SYRIAC_QAPH
+&kp SYR_SYRIAC_REVERSED_PE  &kp SYR_SYRIAC_PE       &kp SYR_SYRIAC_FINAL_SEMKATH  &kp SYR_ARABIC_HAMZA                &kp SYR_SYRIAC_END_OF_PARAGRAPH    &kp SYR_SYRIAC_HARKLEAN_OBELUS                                                 &kp RU_CYRILLIC_HARD_SIGN                    &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_E   &kp RU_CYRILLIC_YU   &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_YA
+&kp SYR_SYRIAC_YUDH         &kp SYR_SYRIAC_TETH     &kp SYR_SYRIAC_CONTRACTION    &kp SYR_SYRIAC_HARKLEAN_ASTERISCUS  &kp SYR_SYRIAC_HARKLEAN_METOBELUS  &kp SYR_SYRIAC_BETH             &kp RU_CYRILLIC_SHORT_I    &kp RU_CYRILLIC_IE  &kp RU_RUBLE                                 &kp RU_CYRILLIC_BE         &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_DE   &kp RU_CYRILLIC_ZHE   &kp RU_CYRILLIC_I
+                                                    &trans                        &trans                              &trans                             &trans                          &trans                     &trans              &trans                                       &trans
             >;
 
             sensor-bindings =
