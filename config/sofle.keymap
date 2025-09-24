@@ -128,7 +128,7 @@
 
             bindings = <
 &kp SYR_SYRIAC_RWAHA                                                    &kp SYR_SYRIAC_SEMKATH       &kp SYR_SYRIAC_NUN        &none         &none         &studio_unlock                  &none  &none  &none  &none  &none  &none
-&kp SYR_SYRIAC_MIM          &none         &kp SYR_SYRIAC_KAPH     &kp SYR_EAST_SYRIAC_CROSS        &kp SYR_ZERO_WIDTH_JOINER          &kp SYR_ZERO_WIDTH_NON_JOINER  &kp SYR_WEST_SYRIAC_CROSS        &kp SYR_SYRIAC_MUSIC  &kp SYR_SYRIAC_TAW           &kp SYR_SYRIAC_SHIN           &kp SYR_SYRIAC_RISH                  &kp SYR_SYRIAC_QAPH
+&kp SYR_SYRIAC_MIM          &kp SYR_SYRIAC_BETH         &kp SYR_SYRIAC_KAPH     &kp SYR_EAST_SYRIAC_CROSS        &kp SYR_ZERO_WIDTH_JOINER          &kp SYR_ZERO_WIDTH_NON_JOINER  &kp SYR_WEST_SYRIAC_CROSS        &kp SYR_SYRIAC_MUSIC  &kp SYR_SYRIAC_TAW           &kp SYR_SYRIAC_SHIN           &kp SYR_SYRIAC_RISH                  &kp SYR_SYRIAC_QAPH
 &kp SYR_SYRIAC_REVERSED_PE   &kp SYR_SYRIAC_PE             &kp SYR_SYRIAC_FINAL_SEMKATH   &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &none  &none  &none  &none  &none  &none
 &kp SYR_SYRIAC_YUDH          &kp SYR_SYRIAC_TETH        &kp SYR_SYRIAC_CONTRACTION        &kp SYR_SYRIAC_HARKLEAN_ASTERISCUS         &none         &studio_unlock                  &none  &none  &none  &none  &none  &none
                                                                     &trans                             &trans                           &trans                               &trans                                  &trans        &trans            &trans                       &trans                       &trans                        &trans
