@@ -127,7 +127,7 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&kp SYR_SYRIAC_RWAHA                                                    &kp SYR_SYRIAC_RUKKAKHA            &kp SYR_SYRIAC_QUSHSHAYA         &none         &none         &studio_unlock                  &none  &none  &none  &none  &none  &none
+&kp SYR_SYRIAC_RWAHA                                                    &kp SYR_SYRIAC_SEMKATH       &kp SYR_SYRIAC_NUN        &none         &none         &studio_unlock                  &none  &none  &none  &none  &none  &none
 &kp SYR_SYRIAC_MIM          &none         &kp SYR_SYRIAC_KAPH     &kp SYR_EAST_SYRIAC_CROSS        &kp SYR_ZERO_WIDTH_JOINER          &kp SYR_ZERO_WIDTH_NON_JOINER  &kp SYR_WEST_SYRIAC_CROSS        &kp SYR_SYRIAC_MUSIC  &kp SYR_SYRIAC_TAW           &kp SYR_SYRIAC_SHIN           &kp SYR_SYRIAC_RISH                  &kp SYR_SYRIAC_QAPH
 &bt BT_CLR_ALL     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &none  &none  &none  &none  &none  &none
 &ext_power EP_TOG  &none         &none         &none         &none         &studio_unlock                  &none  &none  &none  &none  &none  &none
