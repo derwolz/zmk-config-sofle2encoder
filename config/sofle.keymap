@@ -127,8 +127,8 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
+&ext_power EP_TOG  &none         &none         &none         &none         &studio_unlock                  &none  &none  &none  &none  &none  &none
 &kp SYR_EAST_SYRIAC_CROSS        &kp SYR_RTL_MARK                   &kp SYR_ZERO_WIDTH_JOINER          &kp SYR_ZERO_WIDTH_NON_JOINER    &kp SYR_SYRIAC_BARREKH               &kp SYRIAC_TWO_DOTS_ABOVE                                               &kp SYR_SYRIAC_PTHAHA_BELOW  &kp SYR_SYRIAC_PTHAHA_ABOVE  &kp SYR_SYRIAC_TAW            &kp SYR_SYRIAC_SHIN           &kp SYR_SYRIAC_RISH          &kp SYR_SYRIAC_QAPH
-&kp SYR_WEST_SYRIAC_CROSS        &kp SYR_SYRIAC_MUSIC               &kp SYR_SYRIAC_OBLIJUE_LINE_ABOVE  &kp SYR_SYRIAC_THREE_DOTS_BELOW  &kp SYR_SYRIAC_THREE_DOTS_ABOVE      &kp SYRIAC_TWO_DOTS_BELOW                                               &kp SYR_SYRIAC_RBASA_BELOW   &kp SYR_SYRIAC_RBASA_ABOVE   &kp SYR_SYRIAC_ZQAPHA_DOTTED  &kp SYR_SYRIAC_SQAPHA_BELOW   &kp SYR_SYRIAC_ZQAPHA_ABOVE  &kp SYR_SYRIAC_PTHAHA_ABOVE
 &bt BT_CLR_ALL     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &none  &none  &none  &none  &none  &none
 &ext_power EP_TOG  &none         &none         &none         &none         &studio_unlock                  &none  &none  &none  &none  &none  &none
                                                                     &trans                             &trans                           &trans                               &trans                                  &trans        &trans            &trans                       &trans                       &trans                        &trans
