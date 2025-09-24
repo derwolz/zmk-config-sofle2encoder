@@ -109,466 +109,539 @@
             label = "SE_A";
         };
 
-    // Letters A-Z
-    as_a: as_a {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp A>;
-        label = "AS_A";
-    };
-    as_b: as_b {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp B>;
-        label = "AS_B";
-    };
-    as_c: as_c {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp C>;
-        label = "AS_C";
-    };
-    as_d: as_d {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp D>;
-        label = "AS_D";
-    };
-    as_e: as_e {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp E>;
-        label = "AS_E";
-    };
-    as_f: as_f {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F>;
-        label = "AS_F";
-    };
-    as_g: as_g {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp G>;
-        label = "AS_G";
-    };
-    as_h: as_h {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp H>;
-        label = "AS_H";
-    };
-    as_i: as_i {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp I>;
-        label = "AS_I";
-    };
-    as_j: as_j {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp J>;
-        label = "AS_J";
-    };
-    as_k: as_k {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp K>;
-        label = "AS_K";
-    };
-    as_l: as_l {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp L>;
-        label = "AS_L";
-    };
-    as_m: as_m {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp M>;
-        label = "AS_M";
-    };
-    as_n: as_n {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N>;
-        label = "AS_N";
-    };
-    as_o: as_o {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp O>;
-        label = "AS_O";
-    };
-    as_p: as_p {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp P>;
-        label = "AS_P";
-    };
-    as_q: as_q {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp Q>;
-        label = "AS_Q";
-    };
-    as_r: as_r {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp R>;
-        label = "AS_R";
-    };
-    as_s: as_s {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp S>;
-        label = "AS_S";
-    };
-    as_t: as_t {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp T>;
-        label = "AS_T";
-    };
-    as_u: as_u {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp U>;
-        label = "AS_U";
-    };
-    as_v: as_v {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp V>;
-        label = "AS_V";
-    };
-    as_w: as_w {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp W>;
-        label = "AS_W";
-    };
-    as_x: as_x {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp X>;
-        label = "AS_X";
-    };
-    as_y: as_y {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp Y>;
-        label = "AS_Y";
-    };
-    as_z: as_z {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp Z>;
-        label = "AS_Z";
-    };
+        // Letters A-Z
 
-    // Numbers 0-9
-    as_1: as_1 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N1>;
-        label = "AS_1";
-    };
-    as_2: as_2 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N2>;
-        label = "AS_2";
-    };
-    as_3: as_3 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N3>;
-        label = "AS_3";
-    };
-    as_4: as_4 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N4>;
-        label = "AS_4";
-    };
-    as_5: as_5 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N5>;
-        label = "AS_5";
-    };
-    as_6: as_6 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N6>;
-        label = "AS_6";
-    };
-    as_7: as_7 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N7>;
-        label = "AS_7";
-    };
-    as_8: as_8 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N8>;
-        label = "AS_8";
-    };
-    as_9: as_9 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N9>;
-        label = "AS_9";
-    };
-    as_0: as_0 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N0>;
-        label = "AS_0";
-    };
+        as_a: as_a {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp A>;
+            label = "AS_A";
+        };
 
-    // Symbol keys
-    as_minus: as_minus {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp MINUS>;
-        label = "AS_MINUS";
-    };
-    as_equal: as_equal {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp EQUAL>;
-        label = "AS_EQUAL";
-    };
-    as_lbkt: as_lbkt {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp LBKT>;
-        label = "AS_LBKT";
-    };
-    as_rbkt: as_rbkt {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp RBKT>;
-        label = "AS_RBKT";
-    };
-    as_bslh: as_bslh {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp BSLH>;
-        label = "AS_BSLH";
-    };
-    as_semi: as_semi {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp SEMI>;
-        label = "AS_SEMI";
-    };
-    as_sqt: as_sqt {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp SQT>;
-        label = "AS_SQT";
-    };
-    as_grave: as_grave {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp GRAVE>;
-        label = "AS_GRAVE";
-    };
-    as_comma: as_comma {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp COMMA>;
-        label = "AS_COMMA";
-    };
-    as_period: as_period {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp PERIOD>;
-        label = "AS_PERIOD";
-    };
-    as_slash: as_slash {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp SLASH>;
-        label = "AS_SLASH";
-    };
+        as_b: as_b {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp B>;
+            label = "AS_B";
+        };
 
-    // Function keys F1-F12
-    as_f1: as_f1 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F1>;
-        label = "AS_F1";
-    };
-    as_f2: as_f2 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F2>;
-        label = "AS_F2";
-    };
-    as_f3: as_f3 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F3>;
-        label = "AS_F3";
-    };
-    as_f4: as_f4 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F4>;
-        label = "AS_F4";
-    };
-    as_f5: as_f5 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F5>;
-        label = "AS_F5";
-    };
-    as_f6: as_f6 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F6>;
-        label = "AS_F6";
-    };
-    as_f7: as_f7 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F7>;
-        label = "AS_F7";
-    };
-    as_f8: as_f8 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F8>;
-        label = "AS_F8";
-    };
-    as_f9: as_f9 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F9>;
-        label = "AS_F9";
-    };
-    as_f10: as_f10 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F10>;
-        label = "AS_F10";
-    };
-    as_f11: as_f11 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F11>;
-        label = "AS_F11";
-    };
-    as_f12: as_f12 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F12>;
-        label = "AS_F12";
-    };
+        as_c: as_c {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp C>;
+            label = "AS_C";
+        };
 
-    // Special keys
-    as_tab: as_tab {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp TAB>;
-        label = "AS_TAB";
-    };
-    as_space: as_space {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp SPACE>;
-        label = "AS_SPACE";
-    };
-    as_enter: as_enter {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp ENTER>;
-        label = "AS_ENTER";
-    };
-    as_bspc: as_bspc {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp BSPC>;
-        label = "AS_BSPC";
-    };
-    as_del: as_del {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp DEL>;
-        label = "AS_DEL";
-    };
-    as_esc: as_esc {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp ESC>;
-        label = "AS_ESC";
-    };
+        as_d: as_d {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp D>;
+            label = "AS_D";
+        };
 
-    // Arrow keys
-    as_up: as_up {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp UP>;
-        label = "AS_UP";
-    };
-    as_down: as_down {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp DOWN>;
-        label = "AS_DOWN";
-    };
-    as_left: as_left {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp LEFT>;
-        label = "AS_LEFT";
-    };
-    as_right: as_right {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp RIGHT>;
-        label = "AS_RIGHT";
-    };
+        as_e: as_e {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp E>;
+            label = "AS_E";
+        };
 
-    // Page/Home/End keys
-    as_home: as_home {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp HOME>;
-        label = "AS_HOME";
-    };
-    as_end: as_end {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp END>;
-        label = "AS_END";
-    };
-    as_pg_up: as_pg_up {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp PG_UP>;
-        label = "AS_PG_UP";
-    };
-    as_pg_dn: as_pg_dn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp PG_DN>;
-        label = "AS_PG_DN";
-    };
+        as_f: as_f {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F>;
+            label = "AS_F";
+        };
 
-    // Insert key
-    as_ins: as_ins {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp INS>;
-        label = "AS_INS";
-    };
+        as_g: as_g {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp G>;
+            label = "AS_G";
+        };
 
+        as_h: as_h {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp H>;
+            label = "AS_H";
+        };
+
+        as_i: as_i {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp I>;
+            label = "AS_I";
+        };
+
+        as_j: as_j {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp J>;
+            label = "AS_J";
+        };
+
+        as_k: as_k {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp K>;
+            label = "AS_K";
+        };
+
+        as_l: as_l {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp L>;
+            label = "AS_L";
+        };
+
+        as_m: as_m {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp M>;
+            label = "AS_M";
+        };
+
+        as_n: as_n {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N>;
+            label = "AS_N";
+        };
+
+        as_o: as_o {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp O>;
+            label = "AS_O";
+        };
+
+        as_p: as_p {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp P>;
+            label = "AS_P";
+        };
+
+        as_q: as_q {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp Q>;
+            label = "AS_Q";
+        };
+
+        as_r: as_r {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp R>;
+            label = "AS_R";
+        };
+
+        as_s: as_s {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp S>;
+            label = "AS_S";
+        };
+
+        as_t: as_t {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp T>;
+            label = "AS_T";
+        };
+
+        as_u: as_u {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp U>;
+            label = "AS_U";
+        };
+
+        as_v: as_v {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp V>;
+            label = "AS_V";
+        };
+
+        as_w: as_w {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp W>;
+            label = "AS_W";
+        };
+
+        as_x: as_x {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp X>;
+            label = "AS_X";
+        };
+
+        as_y: as_y {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp Y>;
+            label = "AS_Y";
+        };
+
+        as_z: as_z {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp Z>;
+            label = "AS_Z";
+        };
+
+        // Numbers 0-9
+
+        as_1: as_1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N1>;
+            label = "AS_1";
+        };
+
+        as_2: as_2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N2>;
+            label = "AS_2";
+        };
+
+        as_3: as_3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N3>;
+            label = "AS_3";
+        };
+
+        as_4: as_4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N4>;
+            label = "AS_4";
+        };
+
+        as_5: as_5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N5>;
+            label = "AS_5";
+        };
+
+        as_6: as_6 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N6>;
+            label = "AS_6";
+        };
+
+        as_7: as_7 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N7>;
+            label = "AS_7";
+        };
+
+        as_8: as_8 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N8>;
+            label = "AS_8";
+        };
+
+        as_9: as_9 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N9>;
+            label = "AS_9";
+        };
+
+        as_0: as_0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N0>;
+            label = "AS_0";
+        };
+
+        // Symbol keys
+
+        as_minus: as_minus {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp MINUS>;
+            label = "AS_MINUS";
+        };
+
+        as_equal: as_equal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp EQUAL>;
+            label = "AS_EQUAL";
+        };
+
+        as_lbkt: as_lbkt {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp LBKT>;
+            label = "AS_LBKT";
+        };
+
+        as_rbkt: as_rbkt {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp RBKT>;
+            label = "AS_RBKT";
+        };
+
+        as_bslh: as_bslh {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp BSLH>;
+            label = "AS_BSLH";
+        };
+
+        as_semi: as_semi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp SEMI>;
+            label = "AS_SEMI";
+        };
+
+        as_sqt: as_sqt {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp SQT>;
+            label = "AS_SQT";
+        };
+
+        as_grave: as_grave {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp GRAVE>;
+            label = "AS_GRAVE";
+        };
+
+        as_comma: as_comma {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp COMMA>;
+            label = "AS_COMMA";
+        };
+
+        as_period: as_period {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp PERIOD>;
+            label = "AS_PERIOD";
+        };
+
+        as_slash: as_slash {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp SLASH>;
+            label = "AS_SLASH";
+        };
+
+        // Function keys F1-F12
+
+        as_f1: as_f1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F1>;
+            label = "AS_F1";
+        };
+
+        as_f2: as_f2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F2>;
+            label = "AS_F2";
+        };
+
+        as_f3: as_f3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F3>;
+            label = "AS_F3";
+        };
+
+        as_f4: as_f4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F4>;
+            label = "AS_F4";
+        };
+
+        as_f5: as_f5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F5>;
+            label = "AS_F5";
+        };
+
+        as_f6: as_f6 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F6>;
+            label = "AS_F6";
+        };
+
+        as_f7: as_f7 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F7>;
+            label = "AS_F7";
+        };
+
+        as_f8: as_f8 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F8>;
+            label = "AS_F8";
+        };
+
+        as_f9: as_f9 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F9>;
+            label = "AS_F9";
+        };
+
+        as_f10: as_f10 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F10>;
+            label = "AS_F10";
+        };
+
+        as_f11: as_f11 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F11>;
+            label = "AS_F11";
+        };
+
+        as_f12: as_f12 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F12>;
+            label = "AS_F12";
+        };
+
+        // Special keys
+
+        as_tab: as_tab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp TAB>;
+            label = "AS_TAB";
+        };
+
+        as_space: as_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp SPACE>;
+            label = "AS_SPACE";
+        };
+
+        as_enter: as_enter {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp ENTER>;
+            label = "AS_ENTER";
+        };
+
+        as_bspc: as_bspc {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp BSPC>;
+            label = "AS_BSPC";
+        };
+
+        as_del: as_del {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp DEL>;
+            label = "AS_DEL";
+        };
+
+        as_esc: as_esc {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp ESC>;
+            label = "AS_ESC";
+        };
+
+        // Arrow keys
+
+        as_up: as_up {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp UP>;
+            label = "AS_UP";
+        };
+
+        as_down: as_down {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp DOWN>;
+            label = "AS_DOWN";
+        };
+
+        as_left: as_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp LEFT>;
+            label = "AS_LEFT";
+        };
+
+        as_right: as_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp RIGHT>;
+            label = "AS_RIGHT";
+        };
+
+        // Page/Home/End keys
+
+        as_home: as_home {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp HOME>;
+            label = "AS_HOME";
+        };
+
+        as_end: as_end {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp END>;
+            label = "AS_END";
+        };
+
+        as_pg_up: as_pg_up {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp PG_UP>;
+            label = "AS_PG_UP";
+        };
+
+        as_pg_dn: as_pg_dn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp PG_DN>;
+            label = "AS_PG_DN";
+        };
+
+        // Insert key
+
+        as_ins: as_ins {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp INS>;
+            label = "AS_INS";
+        };
     };
 
     keymap {
@@ -632,11 +705,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&kp SYR_SYRIAC_RWAHA        &kp SYR_SYRIAC_SEMKATH  &kp SYR_SYRIAC_NUN            &kp SYR_SYRIAC_HETH                 &kp SYR_ARABIC_SEMICOLON           &kp SYR_ARABIC_QUESTION_MARK                                                   &kp SYR_SYRIAC_SUBLINEAR_COLON_SKEWED_RIGHT  &kp RU_CYRILLIC_PE         &kp RU_CYRILLIC_EF  &kp RU_CYRILLIC_TSE  &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_SHCHA
-&kp SYR_SYRIAC_MIM          &kp SYR_SYRIAC_ZAIN     &kp SYR_SYRIAC_KAPH           &kp SYR_EAST_SYRIAC_CROSS           &kp SYR_ZERO_WIDTH_JOINER          &kp SYR_ZERO_WIDTH_NON_JOINER                                                  &kp SYR_WEST_SYRIAC_CROSS                    &kp SYR_SYRIAC_MUSIC       &kp SYR_SYRIAC_TAW  &kp SYR_SYRIAC_SHIN  &kp SYR_SYRIAC_RISH   &kp SYR_SYRIAC_QAPH
-&kp SYR_SYRIAC_REVERSED_PE  &kp SYR_SYRIAC_PE       &kp SYR_SYRIAC_FINAL_SEMKATH  &kp SYR_ARABIC_HAMZA                &kp SYR_SYRIAC_END_OF_PARAGRAPH    &kp SYR_SYRIAC_HARKLEAN_OBELUS                                                 &kp RU_CYRILLIC_HARD_SIGN                    &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_E   &kp RU_CYRILLIC_YU   &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_YA
-&kp SYR_SYRIAC_YUDH         &kp SYR_SYRIAC_TETH     &kp SYR_SYRIAC_CONTRACTION    &kp SYR_SYRIAC_HARKLEAN_ASTERISCUS  &kp SYR_SYRIAC_HARKLEAN_METOBELUS  &kp SYR_SYRIAC_BETH             &kp RU_CYRILLIC_SHORT_I    &kp RU_CYRILLIC_IE  &kp RU_RUBLE                                 &kp RU_CYRILLIC_BE         &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_DE   &kp RU_CYRILLIC_ZHE   &kp RU_CYRILLIC_I
-                                                    &trans                        &trans                              &trans                             &trans                          &trans                     &trans              &trans                                       &trans
+&as_esc              &as_1                &as_2      &as_3       &as_4   &as_5                                                  &kp SYR_SYRIAC_SUBLINEAR_COLON_SKEWED_RIGHT  &kp RU_CYRILLIC_PE         &kp RU_CYRILLIC_EF  &kp RU_CYRILLIC_TSE  &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_SHCHA
+&as_grave            &as_f1               &as_comma  &as_period  &as_p   &as_y                                                  &kp SYR_WEST_SYRIAC_CROSS                    &kp SYR_SYRIAC_MUSIC       &kp SYR_SYRIAC_TAW  &kp SYR_SYRIAC_SHIN  &kp SYR_SYRIAC_RISH   &kp SYR_SYRIAC_QAPH
+&as_tab              &as_a                &as_o      &as_e       &as_u   &as_i                                                  &kp RU_CYRILLIC_HARD_SIGN                    &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_E   &kp RU_CYRILLIC_YU   &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_YA
+&kp SYR_SYRIAC_YUDH  &kp SYR_SYRIAC_TETH  &as_q      &as_j       &as_k   &as_x   &kp RU_CYRILLIC_SHORT_I    &kp RU_CYRILLIC_IE  &kp RU_RUBLE                                 &kp RU_CYRILLIC_BE         &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_DE   &kp RU_CYRILLIC_ZHE   &kp RU_CYRILLIC_I
+                                          &trans     &trans      &trans  &trans  &trans                     &trans              &trans                                       &trans
             >;
 
             sensor-bindings =
