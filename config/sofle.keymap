@@ -55,16 +55,6 @@
             bindings = <&kp ESCAPE>;
             key-positions = <15 14>;
         };
-
-        altf2 {
-            bindings = <&altf2>;
-            key-positions = <2 51>;
-        };
-
-        altf4 {
-            bindings = <&altf4>;
-            key-positions = <51 4>;
-        };
     };
 
     behaviors {
