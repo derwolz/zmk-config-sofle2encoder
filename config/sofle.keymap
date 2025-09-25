@@ -124,182 +124,182 @@
         as_a: as_a {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp A>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp A>;
             label = "AS_A";
         };
 
         as_b: as_b {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp B>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp B>;
             label = "AS_B";
         };
 
         as_c: as_c {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp C>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp C>;
             label = "AS_C";
         };
 
         as_d: as_d {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp D>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp D>;
             label = "AS_D";
         };
 
         as_e: as_e {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp E>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp E>;
             label = "AS_E";
         };
 
         as_f: as_f {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp F>;
             label = "AS_F";
         };
 
         as_g: as_g {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp G>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp G>;
             label = "AS_G";
         };
 
         as_h: as_h {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp H>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp H>;
             label = "AS_H";
         };
 
         as_i: as_i {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp I>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp I>;
             label = "AS_I";
         };
 
         as_j: as_j {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp J>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp J>;
             label = "AS_J";
         };
 
         as_k: as_k {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp K>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp K>;
             label = "AS_K";
         };
 
         as_l: as_l {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp L>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp L>;
             label = "AS_L";
         };
 
         as_m: as_m {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp M>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp M>;
             label = "AS_M";
         };
 
         as_n: as_n {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp N>;
             label = "AS_N";
         };
 
         as_o: as_o {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp O>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp O>;
             label = "AS_O";
         };
 
         as_p: as_p {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp P>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp P>;
             label = "AS_P";
         };
 
         as_q: as_q {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp Q>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp Q>;
             label = "AS_Q";
         };
 
         as_r: as_r {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp R>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp R>;
             label = "AS_R";
         };
 
         as_s: as_s {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp S>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp S>;
             label = "AS_S";
         };
 
         as_t: as_t {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp T>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp T>;
             label = "AS_T";
         };
 
         as_u: as_u {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp U>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp U>;
             label = "AS_U";
         };
 
         as_v: as_v {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp V>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp V>;
             label = "AS_V";
         };
 
         as_w: as_w {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp W>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp W>;
             label = "AS_W";
         };
 
         as_x: as_x {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp X>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp X>;
             label = "AS_X";
         };
 
         as_y: as_y {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp Y>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp Y>;
             label = "AS_Y";
         };
 
         as_z: as_z {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp Z>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp Z>;
             label = "AS_Z";
         };
 
@@ -308,70 +308,70 @@
         as_1: as_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N1>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp N1>;
             label = "AS_1";
         };
 
         as_2: as_2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N2>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp N2>;
             label = "AS_2";
         };
 
         as_3: as_3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N3>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp N3>;
             label = "AS_3";
         };
 
         as_4: as_4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N4>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp N4>;
             label = "AS_4";
         };
 
         as_5: as_5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N5>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp N5>;
             label = "AS_5";
         };
 
         as_6: as_6 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N6>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp N6>;
             label = "AS_6";
         };
 
         as_7: as_7 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N7>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp N7>;
             label = "AS_7";
         };
 
         as_8: as_8 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N8>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp N8>;
             label = "AS_8";
         };
 
         as_9: as_9 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N9>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp N9>;
             label = "AS_9";
         };
 
         as_0: as_0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp N0>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp N0>;
             label = "AS_0";
         };
 
@@ -380,77 +380,77 @@
         as_minus: as_minus {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp MINUS>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp MINUS>;
             label = "AS_MINUS";
         };
 
         as_equal: as_equal {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp EQUAL>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp EQUAL>;
             label = "AS_EQUAL";
         };
 
         as_lbkt: as_lbkt {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp LBKT>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp LBKT>;
             label = "AS_LBKT";
         };
 
         as_rbkt: as_rbkt {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp RBKT>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp RBKT>;
             label = "AS_RBKT";
         };
 
         as_bslh: as_bslh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp BSLH>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp BSLH>;
             label = "AS_BSLH";
         };
 
         as_semi: as_semi {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp SEMI>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp SEMI>;
             label = "AS_SEMI";
         };
 
         as_sqt: as_sqt {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp SQT>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp SQT>;
             label = "AS_SQT";
         };
 
         as_grave: as_grave {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp GRAVE>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp GRAVE>;
             label = "AS_GRAVE";
         };
 
         as_comma: as_comma {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp COMMA>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp COMMA>;
             label = "AS_COMMA";
         };
 
         as_period: as_period {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp PERIOD>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp PERIOD>;
             label = "AS_PERIOD";
         };
 
         as_slash: as_slash {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp SLASH>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp SLASH>;
             label = "AS_SLASH";
         };
 
@@ -459,84 +459,84 @@
         as_f1: as_f1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F1>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp F1>;
             label = "AS_F1";
         };
 
         as_f2: as_f2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F2>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp F2>;
             label = "AS_F2";
         };
 
         as_f3: as_f3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F3>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp F3>;
             label = "AS_F3";
         };
 
         as_f4: as_f4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F4>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp F4>;
             label = "AS_F4";
         };
 
         as_f5: as_f5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F5>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp F5>;
             label = "AS_F5";
         };
 
         as_f6: as_f6 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F6>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp F6>;
             label = "AS_F6";
         };
 
         as_f7: as_f7 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F7>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp F7>;
             label = "AS_F7";
         };
 
         as_f8: as_f8 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F8>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp F8>;
             label = "AS_F8";
         };
 
         as_f9: as_f9 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F9>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp F9>;
             label = "AS_F9";
         };
 
         as_f10: as_f10 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F10>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp F10>;
             label = "AS_F10";
         };
 
         as_f11: as_f11 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F11>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp F11>;
             label = "AS_F11";
         };
 
         as_f12: as_f12 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp F12>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp F12>;
             label = "AS_F12";
         };
 
@@ -545,42 +545,42 @@
         as_tab: as_tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp TAB>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp TAB>;
             label = "AS_TAB";
         };
 
         as_space: as_space {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp SPACE>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp SPACE>;
             label = "AS_SPACE";
         };
 
         as_enter: as_enter {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp ENTER>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp ENTER>;
             label = "AS_ENTER";
         };
 
         as_bspc: as_bspc {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp BSPC>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp BSPC>;
             label = "AS_BSPC";
         };
 
         as_del: as_del {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp DEL>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp DEL>;
             label = "AS_DEL";
         };
 
         as_esc: as_esc {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp ESC>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp ESC>;
             label = "AS_ESC";
         };
 
@@ -589,28 +589,28 @@
         as_up: as_up {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp UP>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp UP>;
             label = "AS_UP";
         };
 
         as_down: as_down {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp DOWN>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp DOWN>;
             label = "AS_DOWN";
         };
 
         as_left: as_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp LEFT>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp LEFT>;
             label = "AS_LEFT";
         };
 
         as_right: as_right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp RIGHT>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp RIGHT>;
             label = "AS_RIGHT";
         };
 
@@ -619,28 +619,28 @@
         as_home: as_home {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp HOME>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp HOME>;
             label = "AS_HOME";
         };
 
         as_end: as_end {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp END>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp END>;
             label = "AS_END";
         };
 
         as_pg_up: as_pg_up {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp PG_UP>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp PG_UP>;
             label = "AS_PG_UP";
         };
 
         as_pg_dn: as_pg_dn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp PG_DN>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp PG_DN>;
             label = "AS_PG_DN";
         };
 
@@ -649,7 +649,7 @@
         as_ins: as_ins {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp INS>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp INS>;
             label = "AS_INS";
         };
 
@@ -670,7 +670,7 @@
         emdash: emdash {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp MINUS>;
+            bindings = <&kp LEFT_ALT &kp MINUS>;
             label = "EMDASH";
         };
     };
