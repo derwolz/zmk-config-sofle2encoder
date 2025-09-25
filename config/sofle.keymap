@@ -94,7 +94,7 @@
         de_esszet: de_esszet {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp D>;
+            bindings = <&kp RIGHT_ALT &kp COLON>;
             label = "DE_ESSZET";
         };
 
