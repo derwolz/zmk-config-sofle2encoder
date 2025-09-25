@@ -55,6 +55,16 @@
             bindings = <&kp ESCAPE>;
             key-positions = <15 14>;
         };
+
+        altf2 {
+            bindings = <&altf2>;
+            key-positions = <2 51>;
+        };
+
+        altf4 {
+            bindings = <&altf4>;
+            key-positions = <51 4>;
+        };
     };
 
     behaviors {
@@ -641,6 +651,20 @@
             #binding-cells = <0>;
             bindings = <&kp RIGHT_ALT &kp LEFT_SHIFT &kp INS>;
             label = "AS_INS";
+        };
+
+        altf4: altf4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp F4>;
+            label = "ALTF4";
+        };
+
+        altf2: altf2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp F2>;
+            label = "ALTF2";
         };
     };
 
