@@ -660,7 +660,7 @@
         emdash: emdash {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp APOS>;
+            bindings = <&kp RIGHT_ALT &kp APOS>;
             label = "EMDASH";
         };
     };
