@@ -77,35 +77,35 @@
         de_o: de_o {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp S>;
+            bindings = <&kp RIGHT_ALT &kp O>;
             label = "DE_O";
         };
 
         de_esszet: de_esszet {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp COLON>;
+            bindings = <&kp RIGHT_ALT &kp E>;
             label = "DE_ESSZET";
         };
 
         de_u: de_u {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp F>;
+            bindings = <&kp RIGHT_ALT &kp U>;
             label = "DE_U";
         };
 
         se_o: se_o {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp V &kp S>;
+            bindings = <&kp RIGHT_ALT &kp PERIOD &kp O>;
             label = "SE_O";
         };
 
         se_a: se_a {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp V &kp A>;
+            bindings = <&kp RIGHT_ALT &kp PERIOD &kp A>;
             label = "SE_A";
         };
 
@@ -660,7 +660,7 @@
         emdash: emdash {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp APOS>;
+            bindings = <&kp RIGHT_ALT &kp MINUS>;
             label = "EMDASH";
         };
     };
