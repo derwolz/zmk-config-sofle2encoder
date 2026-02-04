@@ -665,46 +665,55 @@
             label = "EMDASH";
         };
 
-        f24_LayerLower: f24_LayerLower {
+        f24_LayerRaise: f24_LayerRaise {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
                 <&kp F24>,
-                <&macro_tap>,
+                <&macro_press>,
+                <&mo 1>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
                 <&mo 1>,
                 <&macro_release>,
                 <&kp F24>;
 
-            label = "F24_LAYERLOWER";
+            label = "F24_LAYERRAISE";
         };
 
-        f23_LayerRaise: f23_LayerRaise {
+        f23_LayerLower: f23_LayerLower {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
                 <&kp F23>,
-                <&macro_tap>,
+                <&macro_press>,
+                <&mo 2>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
                 <&mo 2>,
                 <&macro_release>,
                 <&kp F23>;
 
-            label = "F23_LAYERRAISE";
+            label = "F23_LAYERLOWER";
         };
 
-        F22_LayerAdj: F22_LayerAdj {
+        Layer_Adj: Layer_Adj {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
                 <&kp F22>,
-                <&macro_tap>,
+                <&macro_press>,
+                <&mo 3>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
                 <&mo 3>,
                 <&macro_release>,
                 <&kp F22>;
 
-            label = "F22_LAYERADJ";
+            label = "LAYER_ADJ";
         };
     };
 
@@ -722,11 +731,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&gresc        &kp N1    &kp N2     &kp N3      &kp N4     &kp N5                                  &kp N6           &kp N7           &kp N8         &kp N9         &kp N0  &kp BACKSPACE
-&kp GRAVE     &kp APOS  &kp COMMA  &kp PERIOD  &kp P      &kp Y                                   &kp F            &kp G            &kp C          &kp R          &kp L   &kp FSLH
-&kp TAB       &kp A     &kp O      &kp E       &kp U      &kp I                                   &kp D            &kp H            &kp T          &kp N          &kp S   &kp MINUS
-&kp CAPSLOCK  &kp SEMI  &kp Q      &kp J       &kp K      &kp X           &mkp RCLK    &mkp LCLK  &kp B            &kp M            &kp W          &kp V          &kp Z   &kp EQUAL
-                        &kp LGUI   &kp LALT    &kp LCTRL  &kp LEFT_SHIFT  &kp SPACE    &kp ENTER  &f24_LayerLower  &f23_LayerRaise  &kp BACKSLASH  &F22_LayerAdj
+&gresc        &kp N1    &kp N2     &kp N3      &kp N4     &kp N5                                  &kp N6           &kp N7           &kp N8         &kp N9      &kp N0  &kp BACKSPACE
+&kp GRAVE     &kp APOS  &kp COMMA  &kp PERIOD  &kp P      &kp Y                                   &kp F            &kp G            &kp C          &kp R       &kp L   &kp FSLH
+&kp TAB       &kp A     &kp O      &kp E       &kp U      &kp I                                   &kp D            &kp H            &kp T          &kp N       &kp S   &kp MINUS
+&kp CAPSLOCK  &kp SEMI  &kp Q      &kp J       &kp K      &kp X           &mkp RCLK    &mkp LCLK  &kp B            &kp M            &kp W          &kp V       &kp Z   &kp EQUAL
+                        &kp LGUI   &kp LALT    &kp LCTRL  &kp LEFT_SHIFT  &kp SPACE    &kp ENTER  &f24_LayerRaise  &f23_LayerLower  &kp BACKSLASH  &Layer_Adj
             >;
 
             sensor-bindings =
