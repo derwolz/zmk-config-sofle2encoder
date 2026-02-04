@@ -664,6 +664,48 @@
             bindings = <&kp RIGHT_ALT &kp MINUS>;
             label = "EMDASH";
         };
+
+        f24_LayerLower: f24_LayerLower {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp F24>,
+                <&macro_tap>,
+                <&mo 1>,
+                <&macro_release>,
+                <&kp F24>;
+
+            label = "F24_LAYERLOWER";
+        };
+
+        f23_LayerRaise: f23_LayerRaise {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp F23>,
+                <&macro_tap>,
+                <&mo 2>,
+                <&macro_release>,
+                <&kp F23>;
+
+            label = "F23_LAYERRAISE";
+        };
+
+        F22_LayerAdj: F22_LayerAdj {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp F22>,
+                <&macro_tap>,
+                <&mo 3>,
+                <&macro_release>,
+                <&kp F22>;
+
+            label = "F22_LAYERADJ";
+        };
     };
 
     keymap {
@@ -680,11 +722,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&gresc        &kp N1    &kp N2     &kp N3      &kp N4     &kp N5                                  &kp N6  &kp N7  &kp N8         &kp N9  &kp N0  &kp BACKSPACE
-&kp GRAVE     &kp APOS  &kp COMMA  &kp PERIOD  &kp P      &kp Y                                   &kp F   &kp G   &kp C          &kp R   &kp L   &kp FSLH
-&kp TAB       &kp A     &kp O      &kp E       &kp U      &kp I                                   &kp D   &kp H   &kp T          &kp N   &kp S   &kp MINUS
-&kp CAPSLOCK  &kp SEMI  &kp Q      &kp J       &kp K      &kp X           &mkp MB2     &as_equal  &kp B   &kp M   &kp W          &kp V   &kp Z   &kp EQUAL
-                        &kp LGUI   &kp LALT    &kp LCTRL  &kp LEFT_SHIFT  &kp SPACE    &kp ENTER  &mo 1   &mo 2   &kp BACKSLASH  &mo 3
+&gresc        &kp N1    &kp N2     &kp N3      &kp N4     &kp N5                                  &kp N6           &kp N7           &kp N8         &kp N9           &kp N0  &kp BACKSPACE
+&kp GRAVE     &kp APOS  &kp COMMA  &kp PERIOD  &kp P      &kp Y                                   &kp F            &kp G            &kp C          &kp R            &kp L   &kp FSLH
+&kp TAB       &kp A     &kp O      &kp E       &kp U      &kp I                                   &kp D            &kp H            &kp T          &kp N            &kp S   &kp MINUS
+&kp CAPSLOCK  &kp SEMI  &kp Q      &kp J       &kp K      &kp X           &mkp RCLK    &mkp LCLK  &kp B            &kp M            &kp W          &kp V            &kp Z   &kp EQUAL
+                        &kp LGUI   &kp LALT    &kp LCTRL  &kp LEFT_SHIFT  &kp SPACE    &kp ENTER  &f24_LayerLower  &f23_LayerRaise  &kp BACKSLASH  &f23_LayerRaise
             >;
 
             sensor-bindings =
