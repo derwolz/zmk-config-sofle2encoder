@@ -86,7 +86,7 @@
         td_del: tap_dance_delete {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <170>;
             bindings = <&ht_del DEL DEL>, <&kp LC(DEL)>;
         };
 
@@ -95,7 +95,7 @@
         td_bspc: tap_dance_backspace {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&ht_del BSPC BSPC>, <&kp LC(BSPC)>;
         };
     };
