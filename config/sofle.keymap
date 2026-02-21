@@ -42,16 +42,6 @@
     combos {
         compatible = "zmk,combos";
 
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <31 33>;
-        };
-
-        delete {
-            bindings = <&kp DELETE>;
-            key-positions = <28 26>;
-        };
-
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <15 14>;
