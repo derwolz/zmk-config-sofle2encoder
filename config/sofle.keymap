@@ -68,7 +68,7 @@
         sp_sh: space_shift {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <50>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
@@ -76,9 +76,33 @@
         td_spc: tap_dance_space {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <50>;
             bindings = <&sp_sh LSHFT SPACE>, <&kp CAPS>;
         };
+  // Hold-tap for delete: hold = repeat delete, tap = pass through
+    ht_del: hold_tap_delete {
+        compatible = "zmk,behavior-hold-tap";
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+        flavor = "tap-preferred";
+        bindings = <&kp>, <&kp>;
+    };
+
+    // Tap-dance for delete: tap = DEL, double-tap = Ctrl+DEL
+    td_del: tap_dance_delete {
+        compatible = "zmk,behavior-tap-dance";
+        #binding-cells = <0>;
+        tapping-term-ms = <250>;
+        bindings = <&ht_del DEL DEL>, <&kp LC(DEL)>;
+    };
+
+    // Tap-dance for backspace: tap = BSPC, double-tap = Ctrl+BSPC
+    td_bspc: tap_dance_backspace {
+        compatible = "zmk,behavior-tap-dance";
+        #binding-cells = <0>;
+        tapping-term-ms = <250>;
+        bindings = <&ht_del BSPC BSPC>, <&kp LC(BSPC)>;
+    };
     };
 
     macros {
@@ -751,7 +775,7 @@
 &kp GRAVE     &kp APOS  &kp COMMA  &kp PERIOD  &kp P      &kp Y                                   &kp F            &kp G            &kp C          &kp R       &kp L   &kp FSLH
 &kp TAB       &kp A     &kp O      &kp E       &kp U      &kp I                                   &kp D            &kp H            &kp T          &kp N       &kp S   &kp MINUS
 &kp BACKSLASH  &kp SEMI  &kp Q      &kp J       &kp K      &kp X           &mkp RCLK    &mkp LCLK  &kp B            &kp M            &kp W          &kp V       &kp Z   &kp EQUAL
-                        &kp LGUI   &kp LALT    &kp LCTRL  &trans  &td_spc    &kp ENTER  &f24_LayerRaise  &f23_LayerLower  &trans  &Layer_Adj
+                        &kp LGUI   &kp LALT    &kp LCTRL  &td_del  &td_spc    &kp ENTER  &td_bspc &f24_LayerRaise  &f23_LayerLower   &Layer_Adj
             >;
 
             sensor-bindings =
