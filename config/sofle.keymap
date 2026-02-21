@@ -65,6 +65,7 @@
             #binding-cells = <0>;
             continue-list = <POUND MINUS BACKSPACE UNDERSCORE>;
         };
+
         sp_sh: space_shift {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -79,30 +80,34 @@
             tapping-term-ms = <50>;
             bindings = <&sp_sh LSHFT SPACE>, <&kp CAPS>;
         };
-  // Hold-tap for delete: hold = repeat delete, tap = pass through
-    ht_del: hold_tap_delete {
-        compatible = "zmk,behavior-hold-tap";
-        #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        flavor = "tap-preferred";
-        bindings = <&kp>, <&kp>;
-    };
 
-    // Tap-dance for delete: tap = DEL, double-tap = Ctrl+DEL
-    td_del: tap_dance_delete {
-        compatible = "zmk,behavior-tap-dance";
-        #binding-cells = <0>;
-        tapping-term-ms = <250>;
-        bindings = <&ht_del DEL DEL>, <&kp LC(DEL)>;
-    };
+        // Hold-tap for delete: hold = repeat delete, tap = pass through
 
-    // Tap-dance for backspace: tap = BSPC, double-tap = Ctrl+BSPC
-    td_bspc: tap_dance_backspace {
-        compatible = "zmk,behavior-tap-dance";
-        #binding-cells = <0>;
-        tapping-term-ms = <250>;
-        bindings = <&ht_del BSPC BSPC>, <&kp LC(BSPC)>;
-    };
+        ht_del: hold_tap_delete {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+
+        // Tap-dance for delete: tap = DEL, double-tap = Ctrl+DEL
+
+        td_del: tap_dance_delete {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&ht_del DEL DEL>, <&kp LC(DEL)>;
+        };
+
+        // Tap-dance for backspace: tap = BSPC, double-tap = Ctrl+BSPC
+
+        td_bspc: tap_dance_backspace {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&ht_del BSPC BSPC>, <&kp LC(BSPC)>;
+        };
     };
 
     macros {
@@ -753,9 +758,7 @@
 
             label = "LAYER_ADJ";
         };
-
-};
-   
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -771,11 +774,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&gresc        &kp N1    &kp N2     &kp N3      &kp N4     &kp N5                                  &kp N6           &kp N7           &kp N8         &kp N9      &kp N0  &kp BACKSPACE
-&kp GRAVE     &kp APOS  &kp COMMA  &kp PERIOD  &kp P      &kp Y                                   &kp F            &kp G            &kp C          &kp R       &kp L   &kp FSLH
-&kp TAB       &kp A     &kp O      &kp E       &kp U      &kp I                                   &kp D            &kp H            &kp T          &kp N       &kp S   &kp MINUS
-&kp BACKSLASH  &kp SEMI  &kp Q      &kp J       &kp K      &kp X           &mkp RCLK    &mkp LCLK  &kp B            &kp M            &kp W          &kp V       &kp Z   &kp EQUAL
-                        &kp LGUI   &kp LALT    &kp LCTRL  &td_del  &td_spc    &kp ENTER  &td_bspc &f24_LayerRaise  &f23_LayerLower   &Layer_Adj
+&gresc         &kp N1    &kp N2     &kp N3      &kp N4     &kp N5                           &kp N6    &kp N7           &kp N8           &kp N9      &kp N0  &kp BACKSPACE
+&kp GRAVE      &kp APOS  &kp COMMA  &kp PERIOD  &kp P      &kp Y                            &kp F     &kp G            &kp C            &kp R       &kp L   &kp FSLH
+&kp TAB        &kp A     &kp O      &kp E       &kp U      &kp I                            &kp D     &kp H            &kp T            &kp N       &kp S   &kp MINUS
+&kp BACKSLASH  &kp SEMI  &kp Q      &kp J       &kp K      &kp X    &mkp RCLK    &mkp LCLK  &kp B     &kp M            &kp W            &kp V       &kp Z   &kp EQUAL
+                         &kp LGUI   &kp LALT    &kp LCTRL  &td_del  &td_spc      &kp ENTER  &td_bspc  &f24_LayerRaise  &f23_LayerLower  &Layer_Adj
             >;
 
             sensor-bindings =
@@ -818,10 +821,10 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&as_esc    &as_1            &kp KP_NUMLOCK   &as_f3           &as_4            &as_5                                   &kp SYR_SYRIAC_SUBLINEAR_COLON_SKEWED_RIGHT  &kp RU_CYRILLIC_PE  &kp RU_CYRILLIC_EF  &kp RU_CYRILLIC_TSE  &kp RU_CYRILLIC_CHE  &kp RU_CYRILLIC_SHCHA
-&as_grave  &as_sqt          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_N9        &as_y                                   &kp SYR_WEST_SYRIAC_CROSS                    &kp KP_NUMBER_7     &kp KP_NUMBER_8     &kp KP_NUMBER_9      &kp SYR_SYRIAC_RISH  &kp SYR_SYRIAC_QAPH
-&as_tab    &kp KP_NUMBER_0  &kp KP_N4        &kp KP_NUMBER_5  &kp KP_NUMBER_6  &as_i                                   &kp RU_CYRILLIC_HARD_SIGN                    &kp KP_NUMBER_4     &kp KP_NUMBER_5     &kp KP_NUMBER_6      &kp KP_NUMBER_0      &kp KP_NUMLOCK
-&as_ins    &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &as_x   &kp K_MUTE    &kp K_PLAY_PAUSE  &kp RU_RUBLE                                 &kp KP_NUMBER_1     &kp KP_NUMBER_2     &kp KP_NUMBER_3      &kp RU_CYRILLIC_ZHE  &kp RU_CYRILLIC_I
+&as_esc    &as_1            &kp KP_NUMLOCK   &as_f3           &as_4            &as_5                                   &kp SYR_SYRIAC_SUBLINEAR_COLON_SKEWED_RIGHT  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTRK
+&as_grave  &as_sqt          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_N9        &as_y                                   &kp SYR_WEST_SYRIAC_CROSS                    &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_4  &kp KP_DIVIDE
+&as_tab    &kp KP_NUMBER_0  &kp KP_N4        &kp KP_NUMBER_5  &kp KP_NUMBER_6  &as_i                                   &kp RU_CYRILLIC_HARD_SIGN                    &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS
+&as_ins    &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &as_x   &kp K_MUTE    &kp K_PLAY_PAUSE  &kp RU_RUBLE                                 &trans  &kp KP_NUMBER_0  &kp PERIOD       &kp KP_NUM       &kp KP_PLUS
                             &trans           &trans           &trans           &trans  &trans        &trans            &trans                                       &trans
             >;
 
