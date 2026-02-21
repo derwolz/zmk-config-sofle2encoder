@@ -811,10 +811,10 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&as_esc    &as_1            &kp KP_NUMLOCK   &as_f3           &as_4            &as_5                                   &kp SYR_SYRIAC_SUBLINEAR_COLON_SKEWED_RIGHT  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTRK
-&as_grave  &as_sqt          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_N9        &as_y                                   &kp SYR_WEST_SYRIAC_CROSS                    &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DIVIDE
-&as_tab    &kp KP_NUMBER_0  &kp KP_N4        &kp KP_NUMBER_5  &kp KP_NUMBER_6  &as_i                                   &kp RU_CYRILLIC_HARD_SIGN                    &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS
-&as_ins    &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &as_x   &kp K_MUTE    &kp K_PLAY_PAUSE  &kp RU_RUBLE                                 &trans  &kp KP_NUMBER_0  &kp PERIOD       &kp KP_NUM       &kp KP_PLUS
+&as_esc    &as_1            &kp KP_NUMLOCK   &as_f3           &as_4            &as_5                                   &kp SYR_SYRIAC_SUBLINEAR_COLON_SKEWED_RIGHT  &trans  &kp KP_NUMBER_0  &kp PERIOD       &kp KP_NUM       &kp ASTRK
+&as_grave  &as_sqt          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_N9        &as_y                                   &kp SYR_WEST_SYRIAC_CROSS                    &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE
+&as_tab    &kp KP_NUMBER_0  &kp KP_N4        &kp KP_NUMBER_5  &kp KP_NUMBER_6  &as_i                                   &kp RU_CYRILLIC_HARD_SIGN                    &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
+&as_ins    &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &as_x   &kp K_MUTE    &kp K_PLAY_PAUSE  &kp RU_RUBLE                                 &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS
                             &trans           &trans           &trans           &trans  &trans        &trans            &trans                                       &trans
             >;
 
